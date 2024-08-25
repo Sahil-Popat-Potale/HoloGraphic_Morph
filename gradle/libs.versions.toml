@@ -1,12 +1,14 @@
 [versions]
-agp = "8.5.1"
+agp = "8.5.2"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 appcompat = "1.7.0"
 material = "1.12.0"
-activity = "1.9.0"
+activity = "1.9.1"
 constraintlayout = "2.1.4"
+opencv = "4.5.3"
+opengl = "1.0.0"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -16,6 +18,8 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+opencv = { group = "org.opencv", name = "opencv-android", version.ref = "opencv" }
+opengl = { group = "com.android.opengl", name = "glsurfaceview", version.ref = "opengl" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
